@@ -25,10 +25,6 @@ toastCloseBtn.addEventListener('click', function () {
 
 
 
-
-
-
-
 // mobile menu variables
 const mobileMenuOpenBtn = document.querySelectorAll('[data-mobile-menu-open-btn]');
 const mobileMenu = document.querySelectorAll('[data-mobile-menu]');
@@ -64,16 +60,14 @@ for (let i = 0; i < mobileMenuOpenBtn.length; i++) {
 const accordionBtn = document.querySelectorAll('[data-accordion-btn]');
 const accordion = document.querySelectorAll('[data-accordion]');
 
-
 for (let i = 0; i < accordionBtn.length; i++) {
 
   accordionBtn[i].addEventListener('click', function () {
 
     accordionBtn.onclick = function () { console.log("Attached event listener") };
 
-    // button to open
     const clickedBtn = this.nextElementSibling.classList.contains('active');
-    // accordion list
+
     for (let i = 0; i < accordion.length; i++) {
 
       if (clickedBtn) break;
@@ -92,6 +86,8 @@ for (let i = 0; i < accordionBtn.length; i++) {
 
   });
 
+
+  // test dynamically added event listeners
   if (accordionBtn[i].getAttribute('listener') !== 'true') {
     accordionBtn[i].addEventListener('click', function (e) {
       const elementClicked = e.target;
