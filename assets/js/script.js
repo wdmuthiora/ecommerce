@@ -87,7 +87,7 @@ for (let i = 0; i < accordionBtn.length; i++) {
   });
 
 
-  // test dynamically added event listeners
+  // test dynamically-added event listeners
   if (accordionBtn[i].getAttribute('listener') !== 'true') {
     accordionBtn[i].addEventListener('click', function (e) {
       const elementClicked = e.target;
