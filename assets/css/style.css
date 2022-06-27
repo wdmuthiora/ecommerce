@@ -1618,3 +1618,64 @@ body::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   color: var(--davys-gray);
 }
+
+/* ......... */
+
+/* // Footer \\*/
+footer{
+  background: var(--eerie-black);
+  padding: 30px 0;
+}
+
+.footer-category{
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--onyx);
+}
+
+.footer-category-title{
+  color: var(--salmon-pink);
+  font-size: var(--fs-6);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer-category-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  row-gap: 3px;
+  column-gap: 20px;
+}
+
+.category-box-title{
+  color: var(--spanish-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+}
+
+.footer-category-link{
+  color: var(--sonic-silver);
+  position: relative;
+  font-size: var(--fs-7);
+  text-transform: capitalize;
+  transition: var(--transition-timing);
+}
+
+.footer-category-link:hover{
+  color: var(--salmon-pink);
+}
+
+.footer-category-link:not(:last-child)::after{
+  position: absolute;
+  content: "";
+  top: 3px;
+  right: -10px;
+  background: var(--sonic-silver);
+  width: 1px;
+  height: 15px;
+}
