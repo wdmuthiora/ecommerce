@@ -1515,3 +1515,49 @@ body::-webkit-scrollbar-thumb:hover {
     font-weight: var(--weight-700);
     margin: auto;
   }
+
+  /* Service */
+  .service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 15px;
+    gap: 30px;
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--cultured);
+  }
+
+  .service-item{
+    min-width: 190px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .service-icon{
+    font-size: 35px;
+    color: var(--salmon-pink);
+    transition: var(--transition-timing);
+  }
+
+  .service-icon ion-icon{
+    --ionicon-stroke-width: 25px;
+  }
+
+  .service-item:hover{
+    color: var(--eerie-black);
+  }
+
+  .service-title{
+    color: var(--sonic-silver);
+    text-transform: capitalize;
+    font-size: var(--fs-7);
+    font-weight: var(--weight-600);
+    margin-bottom: 5px;
+  }
+
+  .service-desc{
+    color: var(--sonic-silver);
+    font-size: var(--fs-9);
+  }
