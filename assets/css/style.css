@@ -1456,3 +1456,62 @@ body::-webkit-scrollbar-thumb:hover {
   color: var(--sonic-silver);
   font-size: var(--fs-7);
 }
+
+  /* CTA */
+  .cta-container{
+    position: relative;
+    aspect-ratio: 5/6;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+
+  .cta-banner{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .cta-content{
+    position: absolute;
+    background: hsla(0, 0%, 100%, 0.7);
+    top:50%;
+    left: 50%;
+    border-radius: var(--border-radius-sm);
+    padding: 15px 20px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .cta-content .discount{
+    background: var(--eerie-black);
+    border-radius: var(--border-radius-sm);
+    font-size: var(--fs-11);
+    color: var(--white);
+    margin: auto;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-weight: var(--weight-600);
+    width: max-content;
+  }
+
+  .cta-content .cta-title{
+    color: var(--onyx);
+    font-size: var(--fs-5);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+
+  .cta-content .cta-text{
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);
+    margin-bottom: 5px;
+  }
+
+  .cta-content .cta-btn{
+    font-size: var(--fs-9);
+    color: var(--sonic-silver);
+    text-transform: uppercase;
+    font-weight: var(--weight-700);
+    margin: auto;
+  }
