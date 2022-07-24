@@ -2569,3 +2569,26 @@ footer{
     padding-bottom: 50px;
   }
 }
+
+/* Larger than 140px */
+@media (min-width:1400px){
+  /* Base */
+  html{
+    font-size: 18px;
+  }
+
+  /* Reused style */
+  .container{
+    max-width: 1350px;
+  }
+
+  /* Banner */
+  .slider-item{
+    height: 458px;
+  }
+
+  .banner-content{
+    left: 110px;
+    max-width: 468px;
+  }
+}
