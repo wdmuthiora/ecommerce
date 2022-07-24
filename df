@@ -1,0 +1,20 @@
+[33m8e52a3b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Styled the Desktop-navigation-menu items, for screens 1024px wide.
+[33mca511a1[m Added underline, with transition effect to menu-title, on hovering.
+[33mcfc5f14[m Added media-querry for device width larger than 768px.
+[33m98c206f[m Added media-querry for device width larger than 570px.
+[33mb9358a3[m Added media-querry for device width larger than 480px.
+[33m6ba8f2e[m Set up Footer-bottom's section, and its corresponding styles and items, in mobile view.
+[33m76fe2a2[m Set up Footer-s category section, and its corresponding styles and items, in mobile view.
+[33m21b2e41[m Set up Blog section, and its corresponding styles and items, in mobile view.
+[33mb5a2d1c[m Set up Services' section, and its corresponding styles and items, in mobile view.
+[33mf0a9120[m Set up CTA section, and its corresponding styles and items, in mobile view.
+[33m31e9402[m Set up Testimonials' section, and its corresponding styles and items, in mobile view.
+[33mcc4518d[m Set up Product Grid's section, and its corresponding styles and items, in mobile view.
+[33m9aac714[m Set up  and styled featured products' and product-minimal sections.
+[33mdf1412a[m Set up New Arrivals' section, and its corresponding styles and items, in mobile view.
+[33me8ad0bf[m Set up sidebar, and its corresponding styles and items, in mobile view.
+[33m98783aa[m Set up category, and its items.
+[33m4a98377[m Mobile view's navigation styling, with collapsable accordion.
+[33m7556d05[m Set up notification toast.
+[33md12b147[m Initial files and settings reset.
+[33mb28486a[m Initial commit
